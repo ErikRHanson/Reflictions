@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, you create the .git folder in the top of the project.  This folder will allow Git to do its thing and turn this plane old directory into a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different because it is like a scratch paper, where we can prep changes before committing them into the actual repository.  
