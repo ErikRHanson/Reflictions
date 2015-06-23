@@ -5,3 +5,34 @@ When you initialize a repository, you create the .git folder in the top of the p
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is different because it is like a scratch paper, where we can prep changes before committing them into the actual repository.  
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+For now we can make sure that the staging area only lists one updated file.  Later on we can use it to make sure that all files in the staging area are related to the change. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful in keeping your history organized when trying out changes that might not be ready for the production application.  Or when working on larger changes that might not be complete by the end of the release cycle. 
+
+A:
+3fc, f26, e3d
+
+B:
+4d9, 7dc, 2c4, e3d
+
+f36
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help visualize the branch structure because it allows us to draw the information in a representation that more closely matches the information we have to some kind of a real world idea.  Branches as tree branches, for example.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is the two branches now come back together into one.  
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros and cons of Git's automatic merging are that some of the merging happens, without user intervention.  
+
+
