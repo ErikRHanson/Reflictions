@@ -1,0 +1,44 @@
+reflections from lesson 1:
+
+Versions
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to the entire history of a file makes me a more efficient programmer because I'm not afraid to try new things.  If I make changes that don't work, all I have to do is go back to a previous version of the application that worked, and start over from there.  I'm basically less hesitant to make changes, because the consequences of those changes are reduced.  
+
+I'm also able to collaborate with other programmers, when one of us updates parts of an application while the other updates a different part of the application. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manually choosing when to commit gives the user the power to choose what is included in each commit.  So if I want to include changes in 3 files in one commit, maybe because those changes combined add a new feature, I can.  On the other hand when changes are automatically saved like in Google Docs, I don't know what will be in a commit. If I need to roll-back a change in Google Docs, I'll have to go through the entire change history to find the last save before the first save with my changes and start over from there. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is designed to give the programmer control over what and when changes are committed.  Google Docs is designed to save documents.  Usually people will work on one document at a time, crafting words into a compelling story.  Programmers, however, may work on dozens of files at one time, coordinating changes in  .css, .js, .html, and .py to bring new application functionality to life. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log and git diff can let a user see all of the commits that have been made for a repository, then compare a certain change to any other change.
+
+3884eab839af1e82c44267484cf2945a766081f3 -> most recient commit
+
+
+df035382c41b4d0cda86a1aa30b53f15bef05b53 -> I can't spell 'screen' apparently :)
+
+25ede836903881848fea811df5b687b59d962da3 -> a couple missing ends with the ipad version
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+
+When you can go back to before the change was made and have a do-over you can feel free to try a bunch of stuff that might break your stuff.  
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Now that I have everything set up on this machine I think I might start using Git for just about everything.  Notes, text messages, just about anything I might want to save on a computer.  
+
+
